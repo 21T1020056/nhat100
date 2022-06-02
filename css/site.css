@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    position: relative;
+    background-color: black;
+    background-image: url(/images/background01.jpg);
+    height: 300px;
+
+}
+.odenmo{
+    background-color: black;
+    opacity: 0.6;
+    height: 40px;
+   
+}
+.odenmo p{
+    text-align: center;
+    color: antiquewhite;
+    line-height: 40px;
+    font-size: 25px;
+}
+.odenmo2{
+
+    background-color: black;
+opacity: 0.4;
+    height: 260px;
+    text-align: center;
+   
+}
+.odenmo2 h1{
+    color: aliceblue;
+ top: 200px;
+    font-size: 50px;
+}
+.odenmo2 p{
+    color: aliceblue;
+    top:-50px
+}
+.thongtin{
+    position: relative;
+    top: 50px;
+}
+.anh{
+    position: relative;
+    top: -100px;
+    left: 750px;
+    background-image: url(/chanhdung.png.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border: 5px solid white;
+
+}
+.than{
+   
+    height: 1500px;
+    background-color: black
+    ;
+    margin-top: 5px;
+    
+    
+}
+.dien{
+    position: relative;
+    left: 650px;
+    top: 90px;
+}
+.dien h3{
+    width: 400px;
+  padding-top: 50px;
+    top: 90px;
+    border-bottom: solid 2px grey ;
+
+    color: beige;
+    
+    
+
+
+}
+.dien p{
+    color: white;
+    padding-top:10px;
+}
+.anh2 {
+    position: relative;
+    top: 30px;
+    right: 200px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 125px 125px 125px;
+    gap: 5px;
+}
+.img1{
+    background-image: url(/anh11.png);
+    grid-column: 2/3;
+    width: 400px;
+}
+.img2{background-image: url(/anh12.png);
+    grid-row: 1/4;
+}
+.img3{
+    background-image: url(/281166230_5069410956467771_5561710238117848770_n.png);
+    grid-row: 2;
+}
+.img4{
+    background-image: url(/anh13.png);
+    grid-row: 3;
+}
+.img5{
+    background-image: url(/anh14.png);
+    grid-row: 2;
+}
+.img6{
+    background-image: url(/anh15.png);
+    grid-row: 3;
+}
+.img7{
+    background-image: url(/anh16.png);
+    grid-column: 4;
+}
+.img8{
+    background-image: url(/anh17.png);
+    grid-row: 2/4;
+}
+   
+
